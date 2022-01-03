@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ReviewApp</string>
+    <string name="login"> \u0040ksya</string>
+    <string name="nickname">Ксения Алексеева</string>
+    <string name="showName">Название</string>
+    <string name="postDate">22.11.2021</string>
+</resources>

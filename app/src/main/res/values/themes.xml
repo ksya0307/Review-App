@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ReviewApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/main_color</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/main_color</item>
+
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="CustomOutlineBox" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/outline_border</item>
+        <item name="android:textColorHint">@color/light_blue_hint</item>
+        <item name="hintTextColor">@color/main_color</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="boxCornerRadiusBottomEnd">7dp</item>
+        <item name="boxCornerRadiusBottomStart">7dp</item>
+        <item name="boxCornerRadiusTopEnd">7dp</item>
+        <item name="boxCornerRadiusTopStart">7dp</item>
+        <item name="android:textColor">@color/input_text</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="maxLines">1</item>
+        <item name="android:inputType">text</item>
+    </style>
+    
+</resources>
